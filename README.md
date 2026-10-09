@@ -23,10 +23,11 @@ The easiest way is to download it from the ERP itself, in
 - **Charges the way the store charges.** Cash with change, card, Bizum, bank
   transfer, financing with its file number, vouchers, points and customer
   deposits, mixed when needed, and gift receipts.
-- **A fiscal ticket from the first moment.** Every ticket carries its number,
-  its fiscal record and its QR, as if the ERP had made it. With the company in
-  VERI\*FACTU the till numbers and chains its own tickets even when the network
-  is down, and uploads them to the ERP when it comes back.
+- **A fiscal ticket from the first moment, with or without network.** The till
+  numbers its own tickets the way the company invoices: VERI\*FACTU or not,
+  TicketBAI in Araba, Bizkaia and Gipuzkoa (signed by the till itself, with its
+  identifier and QR) or before invoicing is activated. It uploads them to the
+  ERP when the network comes back.
 - **Runs the drawer.** Opening with a float, cash in and out, drawer openings,
   and closing with notes withdrawn, the card terminal total and the coin count,
   with its printed report.
@@ -70,7 +71,10 @@ The easiest way is to download it from the ERP itself, in
 3. **Printer:** in **Settings**, choose how the thermal printer is connected
    (network, shared USB printer on Windows or a printer added in macOS) and
    click **Print a test**. The cash drawer is connected to the printer.
-4. **Start selling:** sign in with your personal code, open the till with its
+4. **TicketBAI companies:** in the ERP, in **Tills and printing → Till status**,
+   give the till its device certificate with **TicketBAI certificate**. Without
+   one it signs with the company certificate.
+5. **Start selling:** sign in with your personal code, open the till with its
    float and scan the first article.
 
 ## Requirements
